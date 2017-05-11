@@ -1,0 +1,406 @@
+/*共用*/
+.comWit{
+		width:1000px;
+		margin-left:auto;
+		margin-right:auto;
+}
+.searchBut,.shopCar,.navBox li a{
+		font-family: "Microsoft YaHei","微软雅黑";
+		font-size: 14px;color:#FFF1E0;
+}
+.hide{
+		display: none;
+}
+.show{
+		display: block;
+}
+.rightArea{
+		float: right;
+}
+.leftArea{
+		float: left;
+}
+.topBar .log{
+		margin-right: 17px;
+}
+/*顶栏*/
+.topBar{
+		height: 31px;
+		background-color: #F7F7F7;
+		line-height: 31px;
+}
+.collection{
+		background:url(G:/GitHub/muke-Web-besiness-zice/image/icon/collection.jpg) left center no-repeat;
+		text-indent: 17px;
+		font-family: "宋体";
+		font-weight: bold;float: left;
+}
+.topBar a:hover{
+		color: red;
+}
+/*logo栏*/
+.logoBar{
+		height: 85px;
+		background-color:#1D7AD9;
+}
+.logo{
+		padding-left: 39px;
+		padding-top: 13px;
+}
+.logo img{
+		width: 113px;
+		height: 60px;
+}
+.sreachBox{height: 35px;
+		width: 430px;padding-top: 23px;
+		padding-left: 185px;}
+.searchText{height: 35px;
+		width: 360px;
+		background-color:#FFFFFF;
+}
+.searchBut{
+		height: 35px;
+		width: 70px;
+		background-color: #FF8C00;
+}
+/*购物车*/
+.shopCar{
+		height: 35px;
+		line-height: 35px;
+		background-color:#FF8800;
+		width: 145px;
+		margin-top:23px;
+		margin-right: 59px;
+}
+.shopText{
+		background: url(G:/GitHub/muke-Web-besiness-zice/image/icon/购物车.jpg) 10px center no-repeat;
+		text-indent:25px;
+
+		height: 35px;
+		line-height: 35px/9 width:88px;
+		/*border-right: 2px solid #E27A00;*/
+	 }
+.shopNum{
+		background: url(G:/GitHub/muke-Web-besiness-zice/image/icon/shopNum.jpg) 33px center no-repeat;
+		text-align: right;padding-right:27px; border-left: 2px solid #FF9C01;width: 31px;}
+/*导航栏*/
+.navBox{
+		height: 35px;background-color: #1369C0;color: #FFF;
+}
+.shopClass{
+		position: relative;
+}
+.shopClass a:hover{
+		color:red;
+}
+
+.navBox h3{line-height: 35px;
+		float: left;
+		padding-left: 36px;
+		width: 153px;
+		background: url(G:/GitHub/muke-Web-besiness-zice/image/icon/商品分类.jpg) 129px center no-repeat ;}
+.navBox li{
+		line-height: 35px;
+		float: left;
+		width:95px;
+		text-align: center;
+		height: 35px;
+}
+.navBox  .active2{
+		background-color: #4593FD;
+		height: 35px;
+		width: 100px;
+}
+/*商品分类列表*/
+.shopClass1{
+		height: 381px;
+
+}
+.shopClass_show{
+		position: absolute;
+		top:35px;
+}
+.shopClass_item{
+		background-color:#4593FD;
+		width: 164px;
+		padding: 10px 13px 13px 10px;
+		border-bottom:1px solid #3487F2;
+		border-top:1px solid #5AA1FE;
+		border-left:2px solid #4593FD;
+		border-right:1px solid #4593FD;
+}
+.shopClass_item a{
+		color:#FFFFFF;
+}
+.shopClass_item .b{
+		font-size:14px;
+}
+.shopClass_item dt{
+		height: 22px;
+		line-height: 22px;
+		font-size: 14px;
+		background:url(G:/GitHub/muke-Web-besiness-zice/image/icon/dt_class.jpg) 159px center no-repeat;
+}
+.shopClass_item dd{
+		height: 19px;
+		line-height: 20px;
+		font-size: 12px;
+}
+.shopClass_item dt .link_dt{
+		background:url(G:/GitHub/muke-Web-besiness-zice/image/icon/link_dt.png) left center no-repeat;
+		text-decoration: underline;
+		height:20px;
+		width: 49px;
+		display: inline-block;
+		line-height: 20px;
+		text-align: center;
+}
+.shopClass_show .active{
+		background-color: #FFFFFF;
+		background:none;
+		padding-right: 12px;
+}
+.shopClass_show .active dt{
+		background:none;
+}
+.shopClass_show .active a{
+		color:#000000;
+		text-decoration: none;
+}
+.shopClass_show .active .link_dt{
+		color: #FFFFFF;
+		background:url(G:/GitHub/muke-Web-besiness-zice/image/icon/link_dt2.png) left center no-repeat;
+}
+/*弹出的列表*/
+
+.shopClass_list{
+		width:805px;
+		top:35px;
+		left:189px;
+		position: absolute;
+		border:1px solid #DDDDDD;font-size: 12px;
+}
+.cont{
+		padding:0 21px;
+}
+.shopList_item{
+		padding: 10px 0;
+		border-bottom:1px solid #E5E5E5;
+		line-height: 24px;
+}
+.shopList_item dt{
+		color: #4B88DA;
+		height: 24px;
+		font-weight: bold;
+}
+.shopList_item dd{
+		padding-left: 73px;
+		margin-top: -24px;
+}
+.shopList_item dd a{
+		margin-right:12px;
+}
+.shopList_links{
+		width: 105px;
+		height: 26px;
+		background-color:#2785E6;
+		line-height: 26px;
+		text-indent: 8px;
+		font-size: 12px; margin: 15px 12px 15px 0;
+}
+.shopList_links a {
+		color:#FFFFFF;
+}
+.shopList_links span{
+		background:url(G:/GitHub/muke-Web-besiness-zice/image/icon/shopList_links.jpg) 7px center no-repeat;
+		height:10px;
+		width: 17px;
+		display: inline-block;
+}
+.shopClass .shopClass_img img{
+		position: absolute;
+		left: 760px;
+		top: 35px;
+		height: 325px;
+}
+/*banner设置*/
+.banner_bar{
+		/*float: right;*/
+		position: relative;
+		overflow: hidden;
+}
+.imgBox{
+		position: absolute;
+		left: 0px;top:0px;
+		/*border: 2px solid red;*/
+}
+.banner_bar1 li{
+		float: left;}
+.banner_bar1 img{
+		display: block;}
+.imgNum{
+		height: 5px;
+		width: 100%;
+		position: absolute;left: 0;
+		bottom: 15px;
+		text-align: center;
+}
+.imgNum a{
+		height: 5px;
+		width: 20px;
+		background-color:#FFFFFF;
+		display: inline-block;
+		margin:0 3px;}
+.imgNum .active{
+		background-color:#FF7700;
+}
+.banner_big,.banner_big .img{
+		width:811px;
+		height:328px;
+}
+.banner_big .imgBox{
+		width:1000px;
+		height:328px;
+}
+.imghide{
+		display: none;
+		width:811px;
+		height:328px;
+}
+.imgshow{
+		display: inline-block;
+}
+
+button{
+		height: 40px;
+		position: relative;
+		top: -172px;
+		opacity: 0.2;
+}
+/*shop标题*/
+.shopTit{
+		width: 100%;
+		height: 44px;
+		float: left;
+		margin-bottom:30px;
+		line-height: 44px;
+}
+.shopTit .icon{
+		background-color: red;
+		width: 44px;
+		height: 44px;
+		display: inline-block;
+		float: left;
+		margin-right: 10px;
+		background:url(G:/GitHub/muke-Web-besiness-zice/image/banner/shop_icon.jpg) left center no-repeat;
+}
+.shopTit h3{
+		font-size: 24px;height: 44px;font-weight: normal;width: 150px;display: inline-block;
+}
+.shopTit a{
+		float: right;font-family: "宋体";margin-right: 20px;
+}
+.shopTit a:hover{
+		text-decoration: underline;
+}
+/*商品列表*/
+.shopList .leftArea{
+		width: 189px;
+		height: 400px;
+}
+.banner_sma,.banner_sma .img{
+		width: 190px;
+		height: 402px;}
+.banner_sma .imgBox{
+		width:390px;
+		height: 400px;
+}
+.imgBox1 img{
+		width: 188px;
+		height: 399px;
+}
+/*商品列表右侧*/
+.shopList .rightArea{
+		width: 808px;
+		height: 395px;
+		border-top: 1px solid #CCCCCC;
+		border-bottom: 3px solid #FF7201;
+		position: relative;left:-4px;
+}
+.shopList .shopItem{
+		height: 279px;
+		width: 201px;
+		text-align: center;
+		border-bottom: 1px solid #CCCCCC;
+		border-right: 1px solid #CCCCCC;
+}
+.shopList .shopImg{
+		width: 200px;
+		height: 197px;
+		margin-bottom: 25px;
+		position: relative;
+}
+.shopList .shopImg img{
+		height: 152px;
+		width: 132px;
+		display: block;
+		margin-left:33px;
+		position: absolute;
+		top: 46px;
+ }
+.shopList h3{
+		font-size: 16px;
+}
+.shopList p{
+		font-size: 14px;
+		color:#FF7300;
+		line-height: 22px;
+ }
+/*商品列表小*/
+.shopList .shopItem_sma{
+		height: 115px;
+		width: 201px;
+		border-right: 1px solid #CCCCCC;
+}
+.shopList .shopImg_sma{
+		width:105px;
+		height: 118px;
+		text-align: center;}
+.shopList .shopImg_sma img{
+		width: 62px;
+		height: 115px;
+}
+.shopList .shopText_sma{
+		width:85px;
+		padding-top:26px;
+ }
+.shopList .shopText_sma h3{
+		font-size: 12px;
+		line-height: 16px;
+}
+.shopList .shopText_sma p{
+		font-size: 16px;
+		color: color:#FF7300;
+}
+/*底栏*/
+.fotter{
+		text-align: center;
+		font-size: 14px;
+		line-height: 26px;
+		background-color:#D4D4D4;
+		padding-top: 53px;margin-top: 40px;
+}
+.fotter img{
+		padding-top: 28px;
+		padding-bottom: 43px;
+}
+.fotter i{
+		padding: 0 3px;
+		font-style: normal;
+}
+.fotter a{
+		margin-right: 3px;
+}
+.fotter img{
+		margin-right: 24px;
+}
